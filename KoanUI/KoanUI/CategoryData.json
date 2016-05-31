@@ -1,0 +1,41 @@
+{
+    "categories": {
+        "Koans": [{
+                  "detail1-aaa_1": "KoanTest"
+                  }, {
+                  "detail2-bbb_1": "UnitTest"
+                  }],
+        "Assertions": [{
+                       "d3etail-aaa_1": "asd"
+                       }, {
+                       "d4etail-aaa_1": "asd"
+                       }],
+        "Equality": [{
+                     "d5etail-aaa_1": "asd"
+                     }, {
+                     "d6etail-aaa_1": "asd"
+                     }],
+        "Strings": [{
+                    "newString": "aaaa"
+                    }, {
+                    "newStringIsNotIdentical": "bbbb"
+                    }, {
+                    "stringIsEmpty": "ccccc"
+                    }, {
+                    "stringLength": "ddddd"
+                    }, {
+                    "stringContains": "pppppp"
+                    }, {
+                    "stringReplace": "asd"
+                    }],
+        "Objects": [{
+                    "detail-aaa_1": "asd"
+                    }],
+        "Inheritance": [{
+                        "detail-aaa_1": "asd"
+                        }],
+        "Enums": [{
+                  "detail-aaa_1": "asd"
+                  }]
+    }
+}

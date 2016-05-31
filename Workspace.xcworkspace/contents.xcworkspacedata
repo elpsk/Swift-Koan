@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:KoanTestcase/KoanTestcase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KoanUI/KoanUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KoanCMD/CommandLine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OysterKit/OysterKit Mac.xcodeproj">
+   </FileRef>
+</Workspace>

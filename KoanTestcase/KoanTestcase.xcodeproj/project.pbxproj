@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C364519B1CFD6525000165E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C364519A1CFD6525000165E4 /* main.swift */; };
+		C36451A81CFD6537000165E4 /* KoanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36451A71CFD6537000165E4 /* KoanTest.swift */; };
+		C36451B21CFD68B7000165E4 /* koan-tests-output.txt in Resources */ = {isa = PBXBuildFile; fileRef = C36451B11CFD68B7000165E4 /* koan-tests-output.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C36451951CFD6525000165E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C36451971CFD6525000165E4 /* KoanTestcase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KoanTestcase; sourceTree = BUILT_PRODUCTS_DIR; };
+		C364519A1CFD6525000165E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C36451A51CFD6537000165E4 /* KoanTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoanTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36451A71CFD6537000165E4 /* KoanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoanTest.swift; sourceTree = "<group>"; };
+		C36451A91CFD6537000165E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36451B11CFD68B7000165E4 /* koan-tests-output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "koan-tests-output.txt"; path = "../../../../../../../../private/tmp/koan-tests-output.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36451941CFD6525000165E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36451A21CFD6537000165E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C364518E1CFD6525000165E4 = {
+			isa = PBXGroup;
+			children = (
+				C36451991CFD6525000165E4 /* KoanTestcase */,
+				C36451A61CFD6537000165E4 /* KoanTest */,
+				C36451981CFD6525000165E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36451981CFD6525000165E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36451971CFD6525000165E4 /* KoanTestcase */,
+				C36451A51CFD6537000165E4 /* KoanTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36451991CFD6525000165E4 /* KoanTestcase */ = {
+			isa = PBXGroup;
+			children = (
+				C364519A1CFD6525000165E4 /* main.swift */,
+			);
+			path = KoanTestcase;
+			sourceTree = "<group>";
+		};
+		C36451A61CFD6537000165E4 /* KoanTest */ = {
+			isa = PBXGroup;
+			children = (
+				C36451A71CFD6537000165E4 /* KoanTest.swift */,
+				C36451B11CFD68B7000165E4 /* koan-tests-output.txt */,
+				C36451A91CFD6537000165E4 /* Info.plist */,
+			);
+			path = KoanTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36451961CFD6525000165E4 /* KoanTestcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C364519E1CFD6525000165E4 /* Build configuration list for PBXNativeTarget "KoanTestcase" */;
+			buildPhases = (
+				C36451931CFD6525000165E4 /* Sources */,
+				C36451941CFD6525000165E4 /* Frameworks */,
+				C36451951CFD6525000165E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoanTestcase;
+			productName = KoanTestcase;
+			productReference = C36451971CFD6525000165E4 /* KoanTestcase */;
+			productType = "com.apple.product-type.tool";
+		};
+		C36451A41CFD6537000165E4 /* KoanTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36451AA1CFD6537000165E4 /* Build configuration list for PBXNativeTarget "KoanTest" */;
+			buildPhases = (
+				C36451A11CFD6537000165E4 /* Sources */,
+				C36451A21CFD6537000165E4 /* Frameworks */,
+				C36451A31CFD6537000165E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoanTest;
+			productName = KoanTest;
+			productReference = C36451A51CFD6537000165E4 /* KoanTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C364518F1CFD6525000165E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = albertopasca.it;
+				TargetAttributes = {
+					C36451961CFD6525000165E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C36451A41CFD6537000165E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C36451921CFD6525000165E4 /* Build configuration list for PBXProject "KoanTestcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C364518E1CFD6525000165E4;
+			productRefGroup = C36451981CFD6525000165E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36451961CFD6525000165E4 /* KoanTestcase */,
+				C36451A41CFD6537000165E4 /* KoanTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36451A31CFD6537000165E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36451B21CFD68B7000165E4 /* koan-tests-output.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36451931CFD6525000165E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C364519B1CFD6525000165E4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36451A11CFD6537000165E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36451A81CFD6537000165E4 /* KoanTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C364519C1CFD6525000165E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C364519D1CFD6525000165E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C364519F1CFD6525000165E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36451A01CFD6525000165E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C36451AB1CFD6537000165E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoanTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.albertopasca.KoanTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36451AC1CFD6537000165E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoanTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.albertopasca.KoanTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36451921CFD6525000165E4 /* Build configuration list for PBXProject "KoanTestcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C364519C1CFD6525000165E4 /* Debug */,
+				C364519D1CFD6525000165E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C364519E1CFD6525000165E4 /* Build configuration list for PBXNativeTarget "KoanTestcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C364519F1CFD6525000165E4 /* Debug */,
+				C36451A01CFD6525000165E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36451AA1CFD6537000165E4 /* Build configuration list for PBXNativeTarget "KoanTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36451AB1CFD6537000165E4 /* Debug */,
+				C36451AC1CFD6537000165E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C364518F1CFD6525000165E4 /* Project object */;
+}

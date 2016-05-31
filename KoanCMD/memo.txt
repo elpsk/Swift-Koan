@@ -1,0 +1,55 @@
+
+
+ludmilla$ xctool -scheme UnitTest test -only UnitTest:UnitTest/testExample | tail -n 3
+
+** TEST SUCCEEDED: 1 passed, 0 failed, 0 errored, 1 total ** (4651 ms)
+
+ludmilla$
+
+
+# ------------------------------------------------------------------------------------------------
+
+
+ludmilla$ xctool -scheme UnitTest test -only UnitTest:UnitTest/testExampleB | tail -n 3
+
+** TEST FAILED: 0 passed, 1 failed, 0 errored, 1 total ** (4695 ms)
+
+ludmilla$ 
+
+
+
+# ------------------------------------------------------------------------------------------------
+
+
+
+ludmilla$ xctool -scheme UnitTest test | tail -n 3
+
+** TEST SUCCEEDED: 2 passed, 0 failed, 0 errored, 2 total ** (6601 ms)
+
+ludmilla$ 
+
+
+ludmilla$ xctool -scheme UnitTest test -only UnitTest:TestZone | tail -n 3
+ludmilla$ xctool -scheme UnitTest test -only UnitTest:TestZone/testSum | tail -n 3
+ludmilla$ xctool -scheme UnitTest test -only UnitTest:TestZone/testDiv | tail -n 3
+
+
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
+
+ludmilla$ fswatch -o . | xargs -n1 -I{} echo "file changed..."
+
+
+
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
+
+ludmilla$ xctool -scheme UnitTest test -parallelize
+ludmilla$ xctool -scheme UnitTest test -parallelize -reporter plain:output.txt
+
+
+
+
