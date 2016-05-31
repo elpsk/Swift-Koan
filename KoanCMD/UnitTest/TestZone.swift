@@ -20,12 +20,6 @@ class TestZone : XCTestCase {
     }
 
     //@XTPasky:
-    func testDiv()
-    {
-        XCTAssertTrue(X.XY)
-    }
-
-    //@XTPasky:
     func testBasicIf()
     {
         var x : Int = 1
